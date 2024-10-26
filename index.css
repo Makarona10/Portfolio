@@ -39,3 +39,16 @@ nav > ul > li > a:hover {
 .mu {
     height: calc(100vh - 80px);
 }
+
+@media screen and (max-width: 487px) {
+    nav > ul {
+        font-family: "Nunito Sans", serif;
+        font-weight: 600;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
